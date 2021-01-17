@@ -9,8 +9,6 @@ function FormRequest(props) {
     message: "",
   });
 
-  // TODO seperate the following into a services file
-
   function handleEmailChange(e) {
     setEmailState((prevState) => ({
       ...prevState,
@@ -24,12 +22,11 @@ function FormRequest(props) {
       [e.target.name]: e.target.value,
     }));
   }
-  // fetch:'https://jlong-portfolio-backend.herokuapp.com/send'
-  // fetch: 'http://localhost:3001/send'
+
   const submitEmail = async (e) => {
-    // e.preventDefault()
+    e.preventDefault();
     console.log({ emailState, message });
-    const response = await fetch("https://localhost:3001/", {
+    const response = await fetch("https://localhost:3001/send", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -38,13 +35,6 @@ function FormRequest(props) {
     })
       .then((res) => res.json())
       .then(alert("message sent"));
-    // const resData = await response.json()
-    // if (resData.status === 'success'){
-    //     alert('Message Sent')
-    //     this.resetForm()
-    // } else if(resData.status === 'fail'){
-    //     alert('Message failed to send')
-    // }
   };
 
   return (
@@ -72,7 +62,7 @@ function FormRequest(props) {
                   <textarea
                     name="message"
                     type="text"
-                    placeholder="message"
+                    placeholder="Message"
                     value={message.message}
                     onChange={handleMessageChange}
                     required

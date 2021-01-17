@@ -10,6 +10,7 @@ function App() {
       <Header />
 
       <FormRequest />
+
       <Footer />
     </div>
   );
