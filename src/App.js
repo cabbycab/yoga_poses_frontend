@@ -23,7 +23,6 @@ function App() {
     setYogaData({
       results: data,
     });
-    console.log(data);
   }
 
   useEffect(() => {
