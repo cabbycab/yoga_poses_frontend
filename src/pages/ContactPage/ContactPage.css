@@ -23,9 +23,19 @@ button:hover {
   background-color: #dee2e6;
 }
 
-.form {
+.button-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+textarea {
+  height: 200px;
+}
+/* .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */

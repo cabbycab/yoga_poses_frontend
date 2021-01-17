@@ -41,6 +41,7 @@ function ContactPage(props) {
     <main>
       <h1>Contact Us</h1>
       <div>
+        <br />
         <div className="form">
           <form onSubmit={submitEmail}>
             <legend>
@@ -60,8 +61,9 @@ function ContactPage(props) {
               </div>
             </div>
             <div>
-              <div>
+              <div className="mb-3">
                 <textarea
+                  className="form-control"
                   name="message"
                   type="text"
                   placeholder="Message"
@@ -71,7 +73,7 @@ function ContactPage(props) {
                 />
               </div>
             </div>
-            <div>
+            <div className="button-div">
               <button type="submit">Send Message</button>
             </div>
           </form>
