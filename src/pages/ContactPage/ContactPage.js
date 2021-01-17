@@ -1,7 +1,7 @@
-import "./FormRequest.css";
+import "./ContactPage.css";
 import { useState } from "react";
 
-function FormRequest(props) {
+function ContactPage(props) {
   const [emailState, setEmailState] = useState({
     email: "",
   });
@@ -80,4 +80,4 @@ function FormRequest(props) {
   );
 }
 
-export default FormRequest;
+export default ContactPage;

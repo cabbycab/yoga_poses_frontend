@@ -1,6 +1,6 @@
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import FormRequest from "./components/FormRequest/FormRequest";
+import ContactPage from "./pages/ContactPage/ContactPage";
 import "./App.css";
 import { Route, Switch, Redirect } from "react-router-dom";
 
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Header />
 
-      <FormRequest />
+      <ContactPage />
 
       <Footer />
     </div>
