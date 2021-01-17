@@ -24,7 +24,6 @@ function ContactPage(props) {
   }
 
   const submitEmail = async (e) => {
-    e.preventDefault();
     console.log({ emailState, message });
     const response = await fetch("http://localhost:3001/send", {
       method: "POST",
@@ -34,7 +33,11 @@ function ContactPage(props) {
       body: JSON.stringify({ emailState, message }),
     })
       .then((res) => res.json())
-      .then(alert("message sent"));
+      .then(
+        alert(
+          "Your message has been sent. We will get back to you within 24 hours."
+        )
+      );
   };
 
   return (
