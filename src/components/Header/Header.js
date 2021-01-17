@@ -29,14 +29,12 @@ function Header(props) {
 
   return (
     <header id="Header">
-      {/* <Link to="/" className="home-link">
+      <Link to="/" className="home-link">
         <h1>YOGA POSES</h1>
-      </Link> */}
-      {/* <Link to="/newbrewery">About</Link>
-      <Link to="/newbrewery">Poses</Link>
-      <Link to="/newbrewery">Contact Us</Link> */}
-      <h1>YOGA POSES</h1>
-      About | Poses | Contact
+      </Link>
+      <Link to="/">About</Link>
+      <Link to="/poses">Poses</Link>
+      <Link to="/contact">Contact Us</Link>
     </header>
   );
 }
