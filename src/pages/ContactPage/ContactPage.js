@@ -39,43 +39,44 @@ function ContactPage(props) {
 
   return (
     <main>
-      <header>
-        <h1>Contact Us</h1>
-        <div className="container">
-          <div>
-            <form className="form-horizontal" onSubmit={submitEmail}>
-              <legend>Send us a Message</legend>
-              <div className="form-group">
-                <div>
-                  <input
-                    type="text"
-                    name="email"
-                    placeholder="Email Address"
-                    onChange={handleEmailChange}
-                    value={emailState.email}
-                    required
-                  />
-                </div>
-              </div>
+      <h1>Contact Us</h1>
+      <div>
+        <div className="form">
+          <form onSubmit={submitEmail}>
+            <legend>
+              Please let us know if you have questions about any pose.
+            </legend>
+            <div>
+              <br />
               <div>
-                <div>
-                  <textarea
-                    name="message"
-                    type="text"
-                    placeholder="Message"
-                    value={message.message}
-                    onChange={handleMessageChange}
-                    required
-                  />
-                </div>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email Address"
+                  onChange={handleEmailChange}
+                  value={emailState.email}
+                  required
+                />
               </div>
+            </div>
+            <div>
               <div>
-                <button type="submit">Send Message</button>
+                <textarea
+                  name="message"
+                  type="text"
+                  placeholder="Message"
+                  value={message.message}
+                  onChange={handleMessageChange}
+                  required
+                />
               </div>
-            </form>
-          </div>
+            </div>
+            <div>
+              <button type="submit">Send Message</button>
+            </div>
+          </form>
         </div>
-      </header>
+      </div>
     </main>
   );
 }
