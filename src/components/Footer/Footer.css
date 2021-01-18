@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75px;
+  height: 45px;
   background-color: black;
   color: white;
   font-size: 18px;
-  box-shadow: 1px 1px 20px 1px black;
+  border-radius: 18px 18px 0 0;
+  box-shadow: 1px 1px 20px 1px grey;
 }

@@ -42,44 +42,46 @@ function ContactPage(props) {
 
   return (
     <main>
-      <h1>Contact Us</h1>
-      <div>
-        <br />
-        <div className="form">
-          <form onSubmit={submitEmail}>
-            <legend>
-              Please let us know if you have questions about any pose.
-            </legend>
-            <div>
-              <br />
+      <div className="background">
+        <h1>Contact Us</h1>
+        <div>
+          <br />
+          <div className="form">
+            <form onSubmit={submitEmail}>
+              <legend>
+                Please let us know if you have questions about any pose.
+              </legend>
               <div>
-                <input
-                  type="text"
-                  name="email"
-                  placeholder="Email Address"
-                  onChange={handleEmailChange}
-                  value={emailState.email}
-                  required
-                />
+                <br />
+                <div>
+                  <input
+                    type="text"
+                    name="email"
+                    placeholder="Email Address"
+                    onChange={handleEmailChange}
+                    value={emailState.email}
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div>
-              <div className="mb-3">
-                <textarea
-                  className="form-control"
-                  name="message"
-                  type="text"
-                  placeholder="Message"
-                  value={message.message}
-                  onChange={handleMessageChange}
-                  required
-                />
+              <div>
+                <div className="mb-3">
+                  <textarea
+                    className="form-control"
+                    name="message"
+                    type="text"
+                    placeholder="Message"
+                    value={message.message}
+                    onChange={handleMessageChange}
+                    required
+                  />
+                </div>
               </div>
-            </div>
-            <div className="button-div">
-              <button type="submit">Send Message</button>
-            </div>
-          </form>
+              <div className="button-div">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </main>

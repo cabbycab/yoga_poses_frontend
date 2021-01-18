@@ -6,7 +6,7 @@ const PosesPage = (props) => {
     <main className="page">
       <div>
         <div>
-          <h1 className="name">Poses</h1> <br />
+          {/* <h1 className="name">Poses</h1> <br /> */}
           <div className="display">
             {props.yogaPoses.results?.map((yogaPoses, idx) => (
               <div key={idx} className="container">
