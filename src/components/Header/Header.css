@@ -22,7 +22,7 @@
 
 #Header a:hover,
 #Header a > h1:hover {
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 1px 1px 5px white;
 }
 
 .sticky {
