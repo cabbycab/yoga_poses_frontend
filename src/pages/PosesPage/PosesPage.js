@@ -1,4 +1,4 @@
-import YouTube from "react-youtube";
+import ReactPlayer from "react-player";
 
 const PosesPage = (props) => {
   return (
@@ -12,12 +12,7 @@ const PosesPage = (props) => {
                 <h3>{yogaPoses.sanskrit_name}</h3>
                 <p>({yogaPoses.english_name})</p>
                 <img src={yogaPoses.img_url} alt="pose" className="card" />
-                <iframe
-                  width="560"
-                  height="315"
-                  src={yogaPoses.youtube}
-                  allowFullScreen
-                ></iframe>
+                <ReactPlayer url={yogaPoses.youtube} />
               </div>
             ))}
           </div>

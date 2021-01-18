@@ -5,7 +5,7 @@ import AboutPage from "./pages/AboutPage/AboutPage";
 import PosesPage from "./pages/PosesPage/PosesPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
 
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { getYogaPoses } from "./Services/api";
 
