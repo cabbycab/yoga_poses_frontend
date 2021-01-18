@@ -7,7 +7,7 @@ const AboutPage = (props) => {
       <div>
         <div className="about">
           <h1>About</h1> <br />
-          <div>
+          <div className="description">
             Welcome to Yoga Poses! Here you can view 48 yoga poses, learn their
             sanskrit name and view a YouTube video on how to perform each one.
             Enjoy! <br></br>

@@ -3,7 +3,7 @@
   display: flex;
   flex-grow: 0;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Yusei Magic", sans-serif;
   background-image: url("./images/moon.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;

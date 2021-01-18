@@ -4,31 +4,26 @@ import "./PosesPage.css";
 const PosesPage = (props) => {
   return (
     <main className="page">
-      <div>
-        <div>
-          {/* <h1 className="name">Poses</h1> <br /> */}
-          <div className="display">
-            {props.yogaPoses.results?.map((yogaPoses, idx) => (
-              <div key={idx} className="container">
-                <h3>
-                  {yogaPoses.sanskrit_name} ({yogaPoses.english_name})
-                </h3>{" "}
-                <br />
-                <div className="view">
-                  <img src={yogaPoses.img_url} alt="pose" />
-                  <ReactPlayer
-                    url={yogaPoses.youtube}
-                    playsInline
-                    fluid={false}
-                    width={480}
-                    height={272}
-                    className="youtube"
-                  />
-                </div>
-              </div>
-            ))}
+      <div className="display">
+        {props.yogaPoses.results?.map((yogaPoses, idx) => (
+          <div key={idx} className="container">
+            <h3>
+              {yogaPoses.sanskrit_name} ({yogaPoses.english_name})
+            </h3>{" "}
+            <br />
+            <div className="view">
+              <img src={yogaPoses.img_url} alt="pose" />
+              <ReactPlayer
+                url={yogaPoses.youtube}
+                playsInline
+                fluid={false}
+                width={480}
+                height={272}
+                className="youtube"
+              />
+            </div>
           </div>
-        </div>
+        ))}
       </div>
     </main>
   );
