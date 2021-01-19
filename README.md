@@ -18,15 +18,19 @@ As simple web-application where you can view yoga poses with how-to YouTube vide
 
 ## WireFrames
 
-<!-- ![wireframe] -->
+![wireframe](./src/images/sc-about.png)
+![wireframe](./src/images/sc-poses.png)
+![wireframe](./src/images/sc-contact.png)
 
 ## Screenshots
 
-<!-- ![screenshot] -->
+![screenshot](./src/images/about.png)
+![screenshot](./src/images/poses.png)
+![screenshot](./src/images/contact1.png)
 
 ## Getting Started
 
-- [Click Here](https://animal-crossing-villagers.netlify.app/) to see the deployed app!
+- [Click Here] to see the deployed app!
 - From the home page, you can click to the poses page and the contact page.
 
 ## Future Enhancements
