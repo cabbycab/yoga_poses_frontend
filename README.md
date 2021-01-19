@@ -31,7 +31,7 @@ A simple web-application where you can view yoga poses with how-to YouTube video
 
 ## Getting Started
 
-- [Click Here] to see the deployed app!
+- [Click Here](https://yogaposes-app.herokuapp.com/) to see the deployed app!
 - From the home page, you can click to the poses page and the contact page.
 
 ## Future Enhancements
