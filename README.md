@@ -24,9 +24,9 @@ As simple web-application where you can view yoga poses with how-to YouTube vide
 
 ## Screenshots
 
-![screenshot](./src/images/about.png)
-![screenshot](./src/images/poses.png)
-![screenshot](./src/images/contact1.png)
+![screenshot](./src/images/about_pg.png)
+![screenshot](./src/images/poses_pg.png)
+![screenshot](./src/images/contact_pg.png)
 
 ## Getting Started
 
