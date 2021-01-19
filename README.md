@@ -2,19 +2,20 @@
 
 ## Introduction
 
-As simple web-application where you can view yoga poses with how-to YouTube videos. If you have any questions on the poses, you can email for help.
+A simple web-application where you can view yoga poses with how-to YouTube videos. If you have any questions on the poses, you can email for help.
 
 ## Technologies Used
 
 - HTML5
 - CSS3
 - Express.js
+- Nodemailer with Express
 - Node.js
 - React.js
 - React-Player
-- Nodemailer with Express
 - Google Fonts
 - Yoga API
+- Font Awesome
 
 ## WireFrames
 
