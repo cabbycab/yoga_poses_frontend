@@ -11,7 +11,7 @@ img {
   width: 222px;
   height: 222px;
   object-fit: cover;
-  margin: 0px 12px 12px 0px;
+  margin: 0px 12px 0px 0px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.7);
 }
@@ -26,15 +26,16 @@ img {
 }
 
 .container {
-  margin: 25px;
-  padding: 25px;
+  margin: 25px 0 0 0;
+  padding: 20px;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.6);
-  width: 725px;
+  width: 710px;
 }
 
 h3 {
   color: white;
   text-shadow: 1px 1px 5px black;
   text-align: center;
+  padding: 0 0 15px 0;
 }

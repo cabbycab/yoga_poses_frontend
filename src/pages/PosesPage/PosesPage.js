@@ -10,7 +10,7 @@ const PosesPage = (props) => {
             <h3>
               {yogaPoses.sanskrit_name} ({yogaPoses.english_name})
             </h3>{" "}
-            <br />
+            {/* <br /> */}
             <div className="view">
               <img src={yogaPoses.img_url} alt="pose" />
               <ReactPlayer
