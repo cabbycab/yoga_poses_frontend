@@ -30,7 +30,9 @@ function Header(props) {
   return (
     <header id="Header">
       <Link to="/" className="home-link">
-        <h1>YOGA POSES</h1>
+        <h1>
+          <i class="fas fa-spa"></i>YOGA POSES
+        </h1>
       </Link>
       <nav>
         <Link to="/">About</Link>

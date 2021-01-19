@@ -4,7 +4,11 @@
   flex-grow: 0;
   flex-direction: column;
   font-family: "Yusei Magic", sans-serif;
-  background-image: url("./images/moon.jpg");
+  background-image: linear-gradient(
+      rgba(250, 248, 248, 0.6),
+      rgba(0, 0, 0, 0.1)
+    ),
+    url("./images/zennn.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

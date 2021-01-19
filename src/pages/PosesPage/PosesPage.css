@@ -8,12 +8,12 @@ img {
   justify-content: left;
   flex-direction: column;
   float: left;
-  width: 272px;
-  height: 272px;
+  width: 222px;
+  height: 222px;
   object-fit: cover;
   margin: 0px 12px 12px 0px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .youtube {
@@ -22,14 +22,15 @@ img {
 }
 
 .view {
-  min-width: 725px;
+  min-width: 600px;
 }
 
 .container {
   margin: 25px;
   padding: 25px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 725px;
 }
 
 h3 {

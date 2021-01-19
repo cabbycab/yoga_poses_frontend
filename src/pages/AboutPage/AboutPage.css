@@ -2,10 +2,10 @@
   margin: 25px;
   padding: 25px;
   border-radius: 15px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   color: white;
   text-align: center;
-  width: 400px;
+  width: 500px;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
@@ -25,5 +25,6 @@ a:hover {
 }
 
 .description {
-  font-size: 20px;
+  font-size: 24px;
+  text-shadow: 1px 1px 5px black;
 }

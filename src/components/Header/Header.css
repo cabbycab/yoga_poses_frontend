@@ -1,8 +1,8 @@
 #Header {
-  background-color: black;
+  background-color: #da8bb5;
   padding-left: 10px;
   padding-right: 10px;
-  height: 100px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,7 +10,6 @@
   font-size: 20px;
   font-family: "Yusei Magic", sans-serif;
   box-shadow: 1px 1px 20px 1px grey;
-  border-radius: 0 0 18px 18px;
 }
 
 #Header a {

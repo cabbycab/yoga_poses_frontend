@@ -17,8 +17,8 @@ const PosesPage = (props) => {
                 url={yogaPoses.youtube}
                 playsInline
                 fluid={false}
-                width={480}
-                height={272}
+                width={420}
+                height={222}
                 className="youtube"
               />
             </div>
