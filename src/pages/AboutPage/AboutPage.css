@@ -5,7 +5,7 @@
   background-color: rgba(255, 255, 255, 0.6);
   color: white;
   text-align: center;
-  width: 500px;
+  width: 450px;
 }
 
 h1 {
@@ -27,4 +27,10 @@ a:hover {
 .description {
   font-size: 24px;
   text-shadow: 1px 1px 5px black;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    max-width: 375px;
+  }
 }

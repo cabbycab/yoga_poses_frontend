@@ -37,7 +37,7 @@ function Header(props) {
       <nav>
         <Link to="/">About</Link>
         <Link to="/poses">Poses</Link>
-        <Link to="/contact">Contact Us</Link>
+        <Link to="/contact">Contact</Link>
       </nav>
     </header>
   );
