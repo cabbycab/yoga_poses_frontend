@@ -30,3 +30,10 @@
   width: 100%;
   z-index: 100;
 }
+
+@media screen and (max-width: 800px) {
+  #Header a {
+    padding: 5px;
+    font-size: 18px;
+  }
+}

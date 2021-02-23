@@ -24,7 +24,7 @@ function ContactPage(props) {
   }
 
   const submitEmail = async (e) => {
-    console.log({ emailState, message });
+    console.log({ emailState, message }); // eslint-disable-next-line
     const response = await fetch(
       "https://yogaposesbackend.herokuapp.com/send",
       {

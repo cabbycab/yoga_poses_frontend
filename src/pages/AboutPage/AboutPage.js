@@ -6,9 +6,8 @@ const AboutPage = (props) => {
     <main className="page">
       <div>
         <div className="about">
-          <h1>About</h1> <br />
+          <h1>Welcome to Yoga Poses!</h1>
           <div className="description">
-            Welcome to Yoga Poses! <br />
             <br /> Here you can view 48 yoga poses, learn their sanskrit name
             and view a YouTube video on how to perform each one. Enjoy!{" "}
             <br></br>
