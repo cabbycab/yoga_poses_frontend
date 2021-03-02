@@ -9,7 +9,7 @@
   color: white;
   font-size: 20px;
   font-family: "Yusei Magic", sans-serif;
-  box-shadow: 1px 1px 20px 1px grey;
+  box-shadow: 1px 1px 15px 1px rgb(80, 80, 80);
 }
 
 #Header a {
